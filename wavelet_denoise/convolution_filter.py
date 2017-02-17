@@ -3,6 +3,8 @@ import numpy as np
 from scipy.ndimage.filters import convolve
 
 def pad(image, margin, method):
+    print "margin", margin
+    print "type(margin)",type(margin)
     if 'duplicate' in method:
         return np.pad(image,((margin,margin),(margin,margin)),
             mode='wrap')

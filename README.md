@@ -1,1 +1,1 @@
-This package is a straight Python translation of the wavelet denoising algorithm that is included in the Thunderstorm ImageJ plugin. Those insterested should refer to that package here: https://github.com/zitmen/thunderstorm.
+This package is a straight Python translation of the wavelet denoising algorithm that is included in the Thunderstorm ImageJ plugin. Those interested should refer to that package here: https://github.com/zitmen/thunderstorm.

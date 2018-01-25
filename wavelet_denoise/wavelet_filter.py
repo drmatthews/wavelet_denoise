@@ -1,7 +1,7 @@
 import numpy as np
 import math
-from bspline import BSpline
-from convolution_filter import pad, ConvolutionFilter
+from .bspline import BSpline
+from .convolution_filter import pad, ConvolutionFilter
 
 def crop(arr, margin, width, height):
     row_start = margin
